@@ -55,8 +55,8 @@ function HelloWorld() {
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
           API Response
         </h1>
-        <div className="bg-orange-50 rounded-lg p-4">
-          <p className="text-2xl text-orange-600 font-semibold">
+        <div className="bg-orange-100 rounded-lg p-4">
+          <p className="text-2xl text-orange-800 font-semibold">
             {message}
           </p>
         </div>
