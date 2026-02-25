@@ -28,7 +28,7 @@ function HelloWorld() {
     return (
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto">
         <div className="flex items-center justify-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-500"></div>
           <span className="ml-3 text-gray-600">Loading...</span>
         </div>
       </div>
@@ -55,8 +55,8 @@ function HelloWorld() {
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
           API Response
         </h1>
-        <div className="bg-blue-50 rounded-lg p-4">
-          <p className="text-2xl text-blue-600 font-semibold">
+        <div className="bg-orange-50 rounded-lg p-4">
+          <p className="text-2xl text-orange-600 font-semibold">
             {message}
           </p>
         </div>
